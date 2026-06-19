@@ -51,7 +51,7 @@ export const Home: React.FC = () => {
                />
                <div className="mt-4 bg-sullivan-dark/80 backdrop-blur-sm px-6 py-2 rounded-full border border-white/20 text-center">
                  <span className="block text-white font-header font-bold text-lg">Erin Sullivan</span>
-                 <span className="block text-sullivan-primary text-sm font-semibold uppercase tracking-wider">Owner & Operator</span>
+                 <span className="block text-sullivan-primary text-sm font-semibold uppercase tracking-wider">Owner / Operator</span>
                </div>
             </div>
           </div>
@@ -164,7 +164,7 @@ export const Home: React.FC = () => {
               <div className="md:w-1/3 flex justify-center">
                  <img 
                    src="/assets/images/erin-sullivan.png" 
-                   alt="Erin Sullivan - Owner" 
+                   alt="Erin Sullivan & Owner" 
                    className="w-64 h-64 rounded-full object-cover border-4 border-sullivan-primary shadow-xl"
                  />
               </div>

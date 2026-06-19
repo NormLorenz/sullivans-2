@@ -13,6 +13,7 @@ export const Contact: React.FC = () => {
     message: ''
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [agreedToSms, setAgreedToSms] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -26,6 +27,7 @@ export const Contact: React.FC = () => {
       await sendEmail(formData);
       setStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' }); // clear form
+      setAgreedToSms(false);
     } catch (error) {
       console.error(error);
       setStatus('error');
@@ -176,11 +178,24 @@ export const Contact: React.FC = () => {
                      placeholder="Tell us about your project..."
                    ></textarea>
                  </div>
+
+                 <div className="flex items-start space-x-3 pt-2">
+                   <input
+                     type="checkbox"
+                     id="sms-consent"
+                     checked={agreedToSms}
+                     onChange={(e) => setAgreedToSms(e.target.checked)}
+                     className="mt-1 h-4 w-4 text-sullivan-primary border-gray-300 rounded focus:ring-sullivan-primary cursor-pointer"
+                   />
+                   <label htmlFor="sms-consent" className="text-sm text-gray-600 leading-relaxed cursor-pointer select-none">
+                     By checking this box, you agree to receive text messages from Sullivan Excavating Inc regarding your project estimate and service updates. Message frequency varies. Message and data rates may apply. Reply STOP to opt out at any time. View our <a href='/assets/docs/privacy-policy.pdf' target='_blank' rel='noopener noreferrer' className="text-sullivan-primary hover:underline font-semibold">Privacy Policy</a>.
+                   </label>
+                 </div>
                  
                  <Button 
                     type="submit" 
                     fullWidth 
-                    disabled={status === 'loading'}
+                    disabled={status === 'loading' || !agreedToSms}
                     className="mt-4"
                   >
                    {status === 'loading' ? 'Sending...' : 'Send Message'}

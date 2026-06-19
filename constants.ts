@@ -61,122 +61,122 @@ export const SERVICES: ServiceItem[] = [
 export const PROJECTS: ProjectItem[] = [
   {
     id: '1',
-    title: 'Peterbuilt Dump Truck',
+    title: 'Equipment Hauling',
     category: 'Equipment',
     imageUrl: '/assets/images/MVIMG_20200603_133202.jpg'
   },
   {
     id: '2',
-    title: 'Komatsu Bulldozer',
+    title: 'Dozer',
     category: 'Equipment',
     imageUrl: '/assets/images/MVIMG_20200603_133225.jpg'
   },
   {
     id: '3',
-    title: 'Highway Grading',
-    category: 'Municipal',
+    title: 'Foundation',
+    category: 'Residential',
     imageUrl: '/assets/images/0430201146c.jpg'
   },
   {
     id: '4',
-    title: 'Old Barn Demolition',
-    category: 'Demolition',
+    title: 'Foundation',
+    category: 'Residential',
     imageUrl: '/assets/images/0305200729_HDR.jpg'
   },
   {
     id: '5',
-    title: 'Luxury Driveway',
-    category: 'Residential',
+    title: 'Dump Truck',
+    category: 'Equipment',
     imageUrl: '/assets/images/1126191330_HDR.jpg'
   },
   {
     id: '6',
-    title: 'Utility Trenching',
-    category: 'Commercial',
+    title: 'Equipment',
+    category: 'Equipment',
     imageUrl: '/assets/images/0428200854.jpg'
   },
   {
     id: '7',
-    title: 'Backyard Leveling',
-    category: 'Residential',
+    title: 'Heavy Equipment Hauling',
+    category: 'Equipment',
     imageUrl: '/assets/images/0127200904_HDR.jpg'
   },
   {
     id: '8',
-    title: 'Foundation Dig',
-    category: 'Commercial',
+    title: 'Foundation',
+    category: 'Residential',
     imageUrl: '/assets/images/0220201126a_HDR.jpg'
   },
   {
     id: '9',
-    title: 'Parking Lot Prep',
-    category: 'Commercial',
+    title: 'Foundation',
+    category: 'Residential',
     imageUrl: '/assets/images/0220201127_HDR.jpg'
   },
   {
     id: '10',
-    title: 'Road Widening',
-    category: 'Municipal',
+    title: 'Equipment',
+    category: 'Equipment',
     imageUrl: '/assets/images/0310201620a.jpg'
   },
   {
     id: '11',
-    title: 'Concrete Removal',
-    category: 'Demolition',
+    title: 'Site Preperation',
+    category: 'Residential',
     imageUrl: '/assets/images/0428201406.jpg'
   },
   {
     id: '12',
-    title: 'Pool Excavation',
-    category: 'Residential',
+    title: 'Equipment',
+    category: 'Equipment',
     imageUrl: '/assets/images/0510201938.jpg'
   },
   {
     id: '13',
-    title: 'Park Landscaping',
-    category: 'Municipal',
+    title: 'Utility Trenching',
+    category: 'Residential',
     imageUrl: '/assets/images/0513200831_HDR.jpg'
   },
   {
     id: '14',
-    title: 'Garden Grading',
-    category: 'Residential',
+    title: 'Dump Truck / Hauling',
+    category: 'Equipment',
     imageUrl: '/assets/images/1126191415a.jpg'
   },
   {
     id: '15',
-    title: 'Structure Clearing',
-    category: 'Demolition',
+    title: 'Equipment',
+    category: 'Equipment',
     imageUrl: '/assets/images/1203191216_HDR.jpg'
   },
   {
     id: '16',
-    title: 'Warehouse Site',
-    category: 'Commercial',
+    title: 'Equipment',
+    category: 'Equipment',
     imageUrl: '/assets/images/1210191332a_HDR.jpg'
   },
   {
     id: '17',
-    title: 'Drainage System',
-    category: 'Residential',
+    title: 'Road Building',
+    category: 'Equipment',
     imageUrl: '/assets/images/6553263048.jpg'
   },
   {
     id: '18',
-    title: 'Utilities',
+    title: 'Retaining Wall',
     category: 'Residential',
     imageUrl: '/assets/images/sullivan-1.jpg'
   },
   {
     id: '19',
     title: 'Utilities',
-    category: 'Municipal',
+    category: 'Residential',
     imageUrl: '/assets/images/utilities-1.jpg'
   },
   {
     id: '20',
-    title: 'Utilities',
-    category: 'Municipal',
+    title: 'Utility Trenching',
+    category: 'Commercial',
     imageUrl: '/assets/images/utilities-2.jpg'
   },
   {
@@ -193,50 +193,50 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     id: '23',
-    title: 'Driveway',
-    category: 'Residential',
+    title: 'Driveway Grading',
+    category: 'Residential / Commercial',
     imageUrl: '/assets/images/driveway-1.jpg'
   },
   {
     id: '24',
-    title: 'Driveway',
-    category: 'Residential',
+    title: 'Road Grading',
+    category: 'Residential / Commercial',
     imageUrl: '/assets/images/road-1.jpg'
   },
   {
     id: '25',
-    title: 'Driveway',
+    title: 'Footing Drains',
     category: 'Residential',
     imageUrl: '/assets/images/foundation-3.jpg'
   },
   {
     id: '26',
-    title: 'Driveway',
-    category: 'Residential',
+    title: 'Hard Rock Breaking',
+    category: 'Residential / Commercial',
     imageUrl: '/assets/images/clearing-1.jpg'
   },
   {
     id: '27',
-    title: 'Land Clearing',
-    category: 'Residential',
+    title: 'Site Preperation',
+    category: 'Residential / Commercial',
     imageUrl: '/assets/images/clearing-2.jpg'
   },
   {
     id: '28',
-    title: 'Driveway',
-    category: 'Residential',
+    title: 'Equipment',
+    category: 'Equipment',
     imageUrl: '/assets/images/clearing-3.jpg'
   },
   {
     id: '29',
-    title: 'New Garage Site Prep',
-    category: 'Residential',
+    title: 'Rockery',
+    category: 'Residential / Commercial',
     imageUrl: '/assets/images/manito-1.jpg'
   },
   {
     id: '30',
-    title: 'New Garage Site Prep',
-    category: 'Residential',
+    title: 'Rockery',
+    category: 'Residential / Commercial',
     imageUrl: '/assets/images/manito-2.jpg'
   },
 ];
@@ -244,36 +244,54 @@ export const PROJECTS: ProjectItem[] = [
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: '1',
+    author: 'Krista Crosby',
+    role: 'Homeowner',
+    content: 'Aaron is a rare breed: kind, honest, deeply dedicated to his craft, and truly invested in the people he serves. He cares. And it shows in everything he does. I\'m convinced there is no one better in the business than Sullivan Excavating. If you\'re lucky enough to get on Aaron\'s schedule, consider yourself in the best hands possible. Five stars isn\'t enough. This is the company you hope for in your hardest moment—and the one you\'ll be forever grateful you found.'
+  },
+  {
+    id: '2',
+    author: 'Ken Wold',
+    role: 'Homeowner',
+    content: 'Aaron/Sullivan Excavating is the epitome of outstanding work and performance! His work ethic is second-to-none and he even worked while he was sick on our site. Professional, friendly and the very best excavator you will ever have! Thank you!'
+  },
+  {
+    id: '3',
+    author: 'Bob Loft',
+    role: 'Homeowner',
+    content: 'Extremely happy with the excavation job Erin did for us on our Lake property. He goes above and beyond to ensure his clients are happy, and his work is second to none! Highly recommend him!!!'
+  },
+  {
+    id: '4',
     author: 'John Anderson',
     role: 'Homeowner',
     content: 'Sullivan\'s Excavating did a fantastic job on our new driveway. They were professional, timely, and left the site looking better than when they arrived.'
   },
   {
-    id: '2',
+    id: '5',
     author: 'Sarah Jenkins',
     role: 'Project Manager, BuildRight Inc.',
     content: 'We rely on Sullivan for all our commercial site prep needs. Their attention to detail and safety standards are unmatched in the region.'
   },
   {
-    id: '3',
+    id: '6',
     author: 'Mike Peterson',
     role: 'Local Developer',
     content: 'Honest pricing and incredible work ethic. They handled a difficult demolition project for us with ease. Highly recommended.'
   },
   {
-    id: '4',
+    id: '7',
     author: 'Pat Lowery - Deer Lake',
     role: 'Contractor',
     content: 'We have used Sullivan Excavating for several jobs ranging from building site preparation to road construction. Each time the work has met or exceeded our expectation, was completed within the identified time constraints and as well as the cost estimates initially provided. We will continue to use their services and won’t hesitate to recommend them when asked!'
   },
   {
-    id: '5',
+    id: '8',
     author: 'Donna Busch - Loon Lake',
     role: 'Home Owner',
     content: 'Our yard looks amazing. Even our neighbors are excited. He treated us how he would want someone to treat his own family. He\'s amazing. Thanks'
   },
   {
-    id: '6',
+    id: '9',
     author: 'Robyn Deaton - Seattle',
     role: 'Home Owner',
     content: 'Erin Sullivan is a life saver. When I called him about an emergency sewer leak he came right over and did a fantastic job of repairing it. So when I had an emergency water leak I called him and once again he came right out and explained what I needed to do and was able to fix it the next day. I highly recommend him!'
