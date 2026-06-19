@@ -145,6 +145,7 @@ export const Contact: React.FC = () => {
                        name="phone"
                        value={formData.phone}
                        onChange={handleChange}
+                       required
                        className="p-3 bg-gray-50 border border-gray-200 focus:border-sullivan-primary focus:ring-1 focus:ring-sullivan-primary outline-none transition-colors"
                        placeholder="(555) 555-5555"
                      />
@@ -172,8 +173,7 @@ export const Contact: React.FC = () => {
                      name="message"
                      value={formData.message}
                      onChange={handleChange}
-                     required
-                     rows={5}
+                     rows={3}
                      className="p-3 bg-gray-50 border border-gray-200 focus:border-sullivan-primary focus:ring-1 focus:ring-sullivan-primary outline-none transition-colors"
                      placeholder="Tell us about your project..."
                    ></textarea>
