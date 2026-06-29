@@ -1,4 +1,3 @@
-https://sullivan-s-excavating-1028673508634.us-west1.run.app
 
 TODO: Determine how Erin's picture should be displayed when viewed on a cell-phone. 
 
