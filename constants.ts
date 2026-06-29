@@ -246,13 +246,13 @@ export const TESTIMONIALS: TestimonialItem[] = [
     id: '1',
     author: 'Krista Crosby',
     role: 'Homeowner',
-    content: 'Aaron is a rare breed: kind, honest, deeply dedicated to his craft, and truly invested in the people he serves. He cares. And it shows in everything he does. I\'m convinced there is no one better in the business than Sullivan Excavating. If you\'re lucky enough to get on Aaron\'s schedule, consider yourself in the best hands possible. Five stars isn\'t enough. This is the company you hope for in your hardest moment—and the one you\'ll be forever grateful you found.'
+    content: 'Erin is a rare breed: kind, honest, deeply dedicated to his craft, and truly invested in the people he serves. He cares. And it shows in everything he does. I\'m convinced there is no one better in the business than Sullivan Excavating. If you\'re lucky enough to get on Aaron\'s schedule, consider yourself in the best hands possible. Five stars isn\'t enough. This is the company you hope for in your hardest moment—and the one you\'ll be forever grateful you found.'
   },
   {
     id: '2',
     author: 'Ken Wold',
     role: 'Homeowner',
-    content: 'Aaron/Sullivan Excavating is the epitome of outstanding work and performance! His work ethic is second-to-none and he even worked while he was sick on our site. Professional, friendly and the very best excavator you will ever have! Thank you!'
+    content: 'Erin/Sullivan Excavating is the epitome of outstanding work and performance! His work ethic is second-to-none and he even worked while he was sick on our site. Professional, friendly and the very best excavator you will ever have! Thank you!'
   },
   {
     id: '3',
