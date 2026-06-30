@@ -121,10 +121,14 @@ After deployment, Firebase will provide a public hosting URL for the site.
 
 The Firebase hosting configuration is already set up in the project to serve the built app from the `dist` folder and route all requests to `index.html` for client-side navigation.
 
-TODO: Determine how Erin's picture should be displayed when viewed on a cell-phone. 
-
 TODO: Determine where to display "success hinges on a passion for excellence" on the website
 
 TODO: There seems to be a form factor issue with the image utilities-2.jpg
 
 TODO: Remove Twilio CNAME's from DNS Records on sullivanexcavatinginc.com SquareSpace 
+
+TODO: You have it down below to so maybe put owner / operator there and delete the top one? What do you think?
+
+TODO: On cell it cuts his face in half on top for some reason.
+
+TODO: Determine how Erin's picture should be displayed when viewed on a cell-phone. 
