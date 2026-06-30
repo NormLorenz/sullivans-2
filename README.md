@@ -125,10 +125,14 @@ TODO: Determine where to display "success hinges on a passion for excellence" on
 
 TODO: There seems to be a form factor issue with the image utilities-2.jpg
 
-TODO: Remove Twilio CNAME's from DNS Records on sullivanexcavatinginc.com SquareSpace 
+TODO: Remove Twilio CNAME's from DNS Records for sullivanexcavatinginc.com on SquareSpace 
 
 TODO: You have it down below to so maybe put owner / operator there and delete the top one? What do you think?
 
 TODO: On cell it cuts his face in half on top for some reason.
 
 TODO: Determine how Erin's picture should be displayed when viewed on a cell-phone. 
+
+TODO: 'Read Our Story' is yet to be implemented. Also I found that if you click on Read Our Story (near Erin's picture) it doesn't go anywhere. Could you write up something, otherwise we could just remove the button.
+
+TODO: I'm not sure why but when you click on anything like contact, home, projects etc it doesn't go to the top as it should for some reason.

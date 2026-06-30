@@ -43,7 +43,7 @@ export const Home: React.FC = () => {
               </div>
             </div>
             
-            <div className="flex flex-col items-center justify-center md:self-start md:-mt-12 lg:-mt-24 md:ml-auto">
+            {/* <div className="flex flex-col items-center justify-center md:self-start md:-mt-12 lg:-mt-24 md:ml-auto">
                <img 
                  src="/assets/images/erin-sullivan.png" 
                  alt="Erin Sullivan - Owner" 
@@ -53,7 +53,7 @@ export const Home: React.FC = () => {
                  <span className="block text-white font-header font-bold text-lg">Erin Sullivan</span>
                  <span className="block text-sullivan-primary text-sm font-semibold uppercase tracking-wider">Owner / Operator</span>
                </div>
-            </div>
+            </div> */}
           </div>
         </div>
         
